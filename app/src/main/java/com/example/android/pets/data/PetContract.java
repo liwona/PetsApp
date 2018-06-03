@@ -20,6 +20,13 @@ public class PetContract {
         public static final String COLUMN_PET_GENDER = "gender";
         public static final String COLUMN_PET_WEIGHT = "weight";
 
+//        public static final String SQL_CREATE_ENTRIES = "CREATE_TABLE" + PetEntry.TABLE_NAME + "(" +
+//                PetEntry._ID + "INTEGER PRIMARY KEY AUTOINCREMENT" + PetEntry.COLUMN_PET_NAME + "TEXT NOT NULL" +
+//                PetEntry.COLUMN_PET_BREED + "TEXT" + PetEntry.COLUMN_PET_GENDER + "INTEGER NOT NULL" +
+//                PetEntry.COLUMN_PET_WEIGHT + "INTEGER NOT NULL DEFAULT 0" + ");";
+
+
+//        public static final String SQL_DELETE_ENTRIES = ""
         /**
          * Possible values for the gender: 0- Unknown, 1-Male, 2-Female
          */
